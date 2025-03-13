@@ -7,7 +7,7 @@ resource "aws_instance" "app_server" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "arjun"
+    Name = "storage_backup"
   }
 }
 
